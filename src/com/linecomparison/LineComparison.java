@@ -40,6 +40,16 @@ public class LineComparison {
 		}
 		else
 			System.out.println("Lines are not equal");
+		
+		//using compareTo method
+		
+		int res=distance1.compareTo(distance2);
+		if(res>0)
+			System.out.println("Line1 is greater than Line2");
+		else if(res<0)
+			System.out.println("Line1 is smaller than Line2");
+		else
+			System.out.println("Both lines are equal1");
 	}
 
 }
